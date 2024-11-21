@@ -27,5 +27,5 @@ core.register_node("weaving_frame:frame", {
     },
   },
   sounds = nodes_nature.node_sound_wood_defaults(),
-  on_rightclick = crafting.make_on_rightclick("weaving_frame", 2, { x = 8, y = 3 }),
+  on_rightclick = crafting.make_on_rightclick("weaving_frame", 3, { x = 8, y = 3 }),
 })
