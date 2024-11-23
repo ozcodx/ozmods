@@ -10,3 +10,4 @@ crafting.register_recipe({
 increase_recipe_level("tech:woven_cape","weaving_frame")
 increase_recipe_level("tech:woven_blanket","weaving_frame")
 remove_recipe("tech:weaving_spot", "inv")
+remove_node("tech:weaving_spot")

@@ -23,3 +23,8 @@ function remove_recipe(recipe_output, workbench)
 		end
 	end
 end
+
+function remove_node( nodename )
+	core.registered_nodes[nodename] = nil
+    core.debug("Node '" .. nodename .. "' has been removed.")
+end
