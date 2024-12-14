@@ -1,0 +1,5 @@
+local modpath = minetest.get_modpath("composter")
+dofile(modpath .. "/crafts.lua")
+dofile(modpath .. "/nodes.lua")
+dofile(modpath .. "/items.lua")
+dofile(modpath .. "/utils.lua")
